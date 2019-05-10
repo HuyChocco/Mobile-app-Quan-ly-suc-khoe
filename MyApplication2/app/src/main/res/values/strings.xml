@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Sức khỏe trong tầm tay</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_layout__bmi">Layout_BMI</string>
+    <string name="title_activity_bmi">BMI</string>
+    <string name="title_activity_nang_luong">Tiêu hao năng lượng</string>
+    <string name="title_activity_the_tich_mau">Thể Tích Máu</string>
+    <string name="title_activity_ruou_trong_mau">Rượu trong máu</string>
+    <string name="title_activity_chi_phi_thuoc">Chi phí thuốc</string>
+    <string name="title_activity_nhu_cau_nuoc">Nhu cầu nước</string>
+    <string name="title_activity_chat_beo_dau">Chất béo dầu</string>
+    <string name="title_activity_ham_luong_dinh_duong">Hàm lượng dinh dưỡng</string>
+    <string name="title_activity_huyet_ap">Huyết áp</string>
+    <string name="title_activity_nuoc_trong_co_the">Nước trong cơ thể</string>
+    <string name="title_activity_trong_luong_lt">Trọng lượng lý tưởng</string>
+    <string name="title_activity_ca_lo_bi_dot_chay">Calo bị đốt cháy</string>
+    <string name="title_activity_luong_chat_beo">Lượng chất béo</string>
+    <string name="title_activity_nhip_tim">Nhịp tim</string>
+    <string name="title_activity_mo_co_the">Mỡ cơ thể</string>
+    <string name="title_activity_tao_ho_so">Tạo hồ sơ</string>
+    <string name="title_activity_pedometer">Pedometer</string>
+    <string name="title_activity_theo_doi_trong_luong">Theo dõi trọng lượng</string>
+    <string name="message_bmi">BMI là viết tắt của (Body Mass Index) được gọi là chỉ số cơ thể, thường được các chuyên gia hoặc các bác sĩ áp dụng để xác định tình trạng cơ thể của một người nào đó có bị thừa cân hay gầy ốm hay không. Thông thường chúng ta thường sử dụng chỉ số BMI để tính toán mức độ béo phì.
+</string>
+    <string name="message_nangluong">Tổng chi phí năng lượng hàng ngày là số lượng
+    calo bạn cần mỗi ngày để duy trì cân nặng hiện tại của bạn. Bạn có thể tính toán
+    số lượng calo bạn cần để giảm cân với tổng lbs value.</string>
+    <string name="message_mau">Tổng khối
+        lượng máu sẽ được tính toán dựa trên giới tính,
+        chiều cao và trọng lượng của một con người.
+    Người lớn trung bình có khoảng 4,5-5,5 lít máu lưu thông trong cơ thể</string>
+    <string name="message_ruoutrongmau">Độ cồn trong máu là một ước tính sơ bộ
+    bao nhiêu rượu một người có trong cơ thể của họ. Nó là bất hợp pháp để
+    lái xe với một nồng độ cồn cao ở tất cả các nước.</string>
+    <string name="message_chiphithuoc">Khói thuốc lá chứa tới hơn 7000 chất phần lớn là chất độc hại,
+        trong đó có khoảng 60 chất là tác nhân gây ung thư,
+        đặc biệt nguy hiểm nhất là nicotin. Nicotin dưới dạng tinh khiết đó là một chất lỏng trong suốt,
+        có mùi khó chịu và vị đắng, dễ tan trong nước và dễ dàng xâm nhập vào cơ thể qua đường miệng,
+        hô hấp,
+        thậm chí qua cả da.Ở Việt Nam, mỗi năm có 40.000 người tử vong vì các bệnh có liên quan đến thuốc lá và
+        33 triệu người không hút thuốc bị ảnh hưởng do hít khói thuốc thụ động.</string>
+    <string name="message_nhucaunuoc">Để cơ thể hoạt động đúng đắn, duy trì sức khỏe và ngăn ngừa các bệnh tật trên,
+        cách duy nhất là bổ sung đủ nước cho cơ thể.
+        "Uống nhiều nước hơn" là lời khuyên chung của hầu hết chuyên gia sức khỏe khi tư vấn cho mọi người.
+        Nhưng chính xác uống bao nhiêu là đủ vẫn chưa được giải đáp thích đáng.</string>
+    <string name="message_nuoctrongcothe">Chiếm khoảng 60-70% trọng lượng của cơ thể, nước phân phối ở khắp nơi như máu,
+        cơ bắp, não bộ, phổi, xương khớp...
+        Con người có thể chịu đựng đói ăn trong vài tháng,
+        nhưng thiếu nước trong dăm ba ngày là đã có nhiều nguy cơ tử vong.
+    Thiếu nước trầm trọng đưa tới giảm huyết áp, tim đập nhanh; miệng, da, niêm mạc khô, không đổ mồ hôi; mắt sưng, rất khát nước,
+        tiểu tiện ít, mất định hướng... Nhiều người dùng tiêu chuẩn "khát" để uống nước.
+        Thực ra, khát không phải là dấu hiệu hoàn hảo để báo hiệu nhu cầu uống nước</string>
+</resources>

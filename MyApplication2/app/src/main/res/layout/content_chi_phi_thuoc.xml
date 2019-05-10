@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_chiphithuoc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.chocco.huy.qlsk.ChiPhiThuoc"
+    tools:showIn="@layout/activity_chi_phi_thuoc">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/txtSoThuocHangNgay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Điếu thuốc hút mỗi ngày"
+            android:inputType="number" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/txtTongSoThuoc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tổng số điếu thuốc trong một gói"
+            android:inputType="number" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/txtChiPhiMotGoi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Chi phí cho mỗi gói"
+            android:inputType="number" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnTinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="TÍNH TOÁN" />
+
+</LinearLayout>

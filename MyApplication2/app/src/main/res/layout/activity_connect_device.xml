@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.chocco.huy.qlsk.ConnectDevice">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="7dp">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+          android:textAlignment="center"
+            android:textSize="24sp"
+            android:textColor="#000"
+            android:text="DANH SÁCH CÁC THIẾT BỊ" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Bạn vui lòng kết nối (pair) với thiết bị vòng tay sức khoẻ bằng Settings>Bluetooth trước. Sau đó bạn bấm vào thiết bị cần kết nối bên dưới" />
+
+        <Button
+            android:id="@+id/btnMainDevice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tải danh sách thiết bị" />
+
+        <ListView
+            android:id="@+id/lvmaindevice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="horizontal|vertical">
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="128dp" >
+
+            <ImageButton
+                android:id="@+id/imgTheTichMau"
+                android:layout_width="match_parent"
+                android:layout_weight="0.33"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/bloodvolume" />
+
+            <ImageButton
+                android:id="@+id/imgNangLuong"
+                android:layout_width="match_parent"
+                android:layout_weight="0.33"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/energyexpenditure" />
+
+            <ImageButton
+                android:id="@+id/imgBMI"
+                android:layout_width="match_parent"
+                android:layout_weight="0.33"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/bmi" />
+        </TableRow>
+
+
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+             >
+
+            <ImageButton
+                android:id="@+id/imgNuocTrongCT"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.33"
+                app:srcCompat="@drawable/bodywater" />
+
+            <ImageButton
+                android:id="@+id/imgThuoc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.33"
+                app:srcCompat="@drawable/smokingcost" />
+
+            <ImageButton
+                android:id="@+id/imgNhuCauNuoc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.33"
+                app:srcCompat="@drawable/waterrequirement" />
+        </TableRow>
+
+
+
+</LinearLayout>
+</ScrollView>
